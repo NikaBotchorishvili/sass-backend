@@ -1,9 +1,9 @@
 import { CorsOptions } from "cors";
 
-const options: CorsOptions = {
+const corsOptions: CorsOptions = {
     credentials: true,
 	origin: ["http://localhost:8000", "https://*"],
     methods: ["POST", "GET", "PUT", "PATCH", "DELETE"]
 }
 
-export default options
+export default corsOptions

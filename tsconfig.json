@@ -17,7 +17,7 @@
     },
   "include": [
     "src//*.ts"               // Include TypeScript files within the src directory
-  ],
+, "src/config/cors.ts"  ],
   "exclude": [
     "./node_modules/**/*",
     "./tests/**/*",
